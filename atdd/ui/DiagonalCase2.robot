@@ -53,5 +53,5 @@ ${BROWSER}    chrome
 แสดงผลให้ player 1 มี 1 score
     Wait Until Element Contains    id=player1Score    1
 
-เปิดหน้าเว็ป OX
+ปิดหน้าเว็ป OX
     Close Browser

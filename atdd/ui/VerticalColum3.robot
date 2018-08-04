@@ -1,5 +1,5 @@
 *** Settings ***
-Library SeleniumLibrary
+Library    SeleniumLibrary
 
 *** Variable ***
 ${URL}    http://localhost:8080/gamexo/index.jsp
@@ -14,9 +14,10 @@ ${BROWSER}    chrome
     คลิกตำแหน่งแถว 1 คอลัมน์ 1
     คลิกตำแหน่งแถว 3 คอลัมน์ 3
     แสดงผลว่า player1 มี 1 score
+    ปิดหน้าเว็บ
 
 *** Keywords ***
-เปิดหน้าเว็บxo
+เปิดหน้าเว็บOX
     Open Browser    ${URL}    ${BROWSER}
 
 คลิกตำแหน่งแถว 1 คอลัมน์ 3
@@ -41,3 +42,6 @@ ${BROWSER}    chrome
 
 แสดงผลว่า player1 มี 1 score
     Wait Until Element Contains    id=player1Score    1
+	
+ปิดหน้าเว็บ
+	Close Browser
