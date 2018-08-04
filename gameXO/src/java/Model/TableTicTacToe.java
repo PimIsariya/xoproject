@@ -11,17 +11,9 @@ package Model;
  */
 public class TableTicTacToe {
 
-    public Object table;
+    public String[] table;
 
     public TableTicTacToe() {
-        String[] table;
+        table = new String[9];
     }
-
-    public void clearTable() {
-        
-    }
-
-    
-
-    
 }
