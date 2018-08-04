@@ -65,9 +65,9 @@
                     <td><p> Player2(o) </p></td>
                 </tr>
                 <tr>
-                    <td><p> 0 </p></td>
-                    <td><p> 0 </p></td>
-                    <td><p> 0 </p></td>
+                    <td><p>  </p></td>
+                    <td><p>  </p></td>
+                    <td><p>  </p></td>
                 </tr>
             </table>    
         </div>
